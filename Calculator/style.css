@@ -13,7 +13,7 @@ a{
     color: #fff;
 }
 body{
-    /* background-image: linear-gradient(to bottom right,rgba(79,51,176,1),rgba(210,53,165)); */
+    background-image: linear-gradient(to bottom right,rgba(79,51,176,1),rgba(210,53,165));
 }
 
 .container{
@@ -101,7 +101,7 @@ button#equal{
 }
 .calculator button#clear{
     background-color: #ffd5d8;
-    background-color: rgb(255, 197, 174);
+    /* background-color: rgb(255, 197, 174); */
     color: #fc4552;
 
 }
@@ -119,10 +119,6 @@ button#equal{
 }
 
 /* dark theme */
-body.calculator.dark {
-    background-image: linear-gradient(to bottom right,rgba(79,51,176,1),rgba(210,53,165));
-
-}
 .calculator.dark{
     background-color: #071115;
 }
