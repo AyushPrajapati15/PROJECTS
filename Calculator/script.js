@@ -18,6 +18,7 @@ buttons.forEach((item) => {
     }
   };
 });
+
 const themeTogglebtn = document.querySelector(".theme-toggler");
 const calculator = document.querySelector(".calculator");
 const toggleIcon = document.querySelector(".toggler-icon");
