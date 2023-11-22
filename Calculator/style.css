@@ -23,8 +23,7 @@ body {
   background-image: linear-gradient(
     to bottom right,
     rgba(79, 51, 176, 1),
-    rgba(210, 54, 165)
-    /* rgba(210, 53, 165) */
+    rgba(210, 54, 165) /* rgba(210, 53, 165) */
   );
 }
 .container {
