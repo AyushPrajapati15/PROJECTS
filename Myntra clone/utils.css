@@ -7,16 +7,16 @@
 .justify-center {
   justify-content: center;
 }
-.space-between{
+.space-between {
   justify-content: space-between;
 }
-.uppercase{
+.uppercase {
   text-transform: uppercase;
 }
-.semibold{
+.semibold {
   font-weight: bolder;
 }
-.mx-2{
+.mx-2 {
   margin-left: 12px;
   margin-right: 12px;
 }
