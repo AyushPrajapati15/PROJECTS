@@ -32,7 +32,6 @@ header {
 }
 .section1 {
   background: #f5f0f0;
-  height: 122vh;
 }
 .search {
   width: 34vw;
@@ -41,6 +40,18 @@ header {
   background: #f7f8fd;
   border-radius: 5px;
 }
- 
+.homeImg{
+  width: 80vw;
+  margin: 12px 0;
 
+}
 
+.itemImg{
+  width: 20vw;
+  margin: 9px 4px;
+}
+footer{
+  padding: 23px;
+  text-align: center;
+  box-shadow: rgba(0 0 0 / 24%) 0px 3px 8px;
+}
