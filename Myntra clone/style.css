@@ -10,7 +10,6 @@ body {
 .left img {
   width: 76px;
   height: 47px;
-
 }
 .container {
   padding: 0 10vw;
@@ -41,33 +40,32 @@ header {
   background: #f7f8fd;
   border-radius: 5px;
 }
-.homeImg{
+.homeImg {
   width: 80vw;
   margin: 12px 0;
-
 }
 
-.itemImg{
+.itemImg {
   width: 20vw;
   margin: 9px 4px;
 }
-footer{
+footer {
   padding: 23px;
   text-align: center;
   box-shadow: rgba(0 0 0 / 24%) 0px 3px 8px;
 }
-  @media(max-width:1550px){
-    header{
-      background:red;
-      height: 122px;
-    }
-    nav{
-      flex-direction: column;
-      align-items: cen;
-    }
-    .right{
-      flex-direction: column;
-      display: flex;
-      margin: 12px;
-    }
+@media (max-width: 1550px) {
+  header {
+    background: red;
+    height: 122px;
   }
+  nav {
+    flex-direction: column;
+    align-items: cen;
+  }
+  .right {
+    flex-direction: column;
+    display: flex;
+    margin: 12px;
+  }
+}
