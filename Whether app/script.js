@@ -11,23 +11,31 @@ let description = document.querySelector('desc');
 // https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 
+
+const getWeatherData = async (city) => {
+    // try {
+        
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${`62f4367c410104e4584c2ba7755485b2`}`);
+        const data = await response.json();
+        console.log(data);
+    // } catch (error) {
+    //     console.error('Error fetching weather data:', error);
+    // }
+
+    const weatherIcon = data.weather[0].icon;
+    icon.innerHTML = `<img src="http://openweathermap.org/img/wn/${weatherIcon}.png" alt=weather_image" />`;
+
+
+
+};
+
+
+
 btn.addEventListener('click', () => {
     let city = user_input.value;
     getWeatherData(city)
 });
 
-
-
-const getWeatherData = async (city) => {
-    try {
-        
-        const resonse = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${`62f4367c410104e4584c2ba7755485b2`}`);
-        const data = await response.json();
-        console.log(resonse);
-    } catch (error) {
-        console.error('Error fetching weather data:', error);
-    }
-};
 
 
 
