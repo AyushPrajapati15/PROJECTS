@@ -11,7 +11,6 @@ let description = document.querySelector('desc');
 // https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 
-
 const getWeatherData = async (city) => {
     // try {
         
