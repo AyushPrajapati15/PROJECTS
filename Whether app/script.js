@@ -30,7 +30,6 @@ const getWeatherData = async (city) => {
 };
 
 
-
 btn.addEventListener('click', () => {
     let city = user_input.value;
     getWeatherData(city)
