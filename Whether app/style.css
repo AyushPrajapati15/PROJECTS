@@ -16,11 +16,11 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 1
 }
 .weatherapp {
   height: 400px;
-  width: 340px;
+  width: 330px;
   /* border: 2px solid black; */
   background-color: #21d4fd;
   background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-  border-radius: 20px;
+  border-radius: 21px;
 }
 .user-input {
   text-align: center;
