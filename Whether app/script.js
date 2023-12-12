@@ -39,5 +39,4 @@ const getWeatherData = async (city) => {
 
 
 
-
 // script.js:35 Uncaught (in promise) TypeError: Cannot set properties of null (setting 'innerHTML')    at getWeatherData (script.js:35:27)
