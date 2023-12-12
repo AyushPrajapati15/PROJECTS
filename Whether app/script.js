@@ -30,15 +30,14 @@ const getWeatherData = async (city) => {
     const weatherIcon = data.weather[0].icon;
     icon.innerHTML = `<img src="http://openweathermap.org/img/wn/${weatherIcon}.png" alt=weather_image" />`;
 
-
-
+    const cityname = data.name;
+    const countryName = data.sys.country;
+    weatherData.innerHTML = `${cityname},${countryName}`;
 };
 
 
 
 
 
-// GET https://api.openweathermap.org/data/2.5/weather?q=&appid=414d00930df4283f8ed2beefa3ad425b 401 (Unauthorized)
-// getWeatherData @ script.js:22
-// script.js:16Error fetching weather data: ReferenceError: response is not defined
-// at getWeatherData (script.js:25:22)
+
+// script.js:35 Uncaught (in promise) TypeError: Cannot set properties of null (setting 'innerHTML')    at getWeatherData (script.js:35:27)
