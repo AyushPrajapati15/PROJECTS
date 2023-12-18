@@ -8,9 +8,17 @@ let description = document.querySelector("desc");
 // 62f4367c410104e4584c2ba7755485b2
 // https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
+<<<<<<< HEAD
 btn.addEventListener("click", () => {
   let city = user_input.value;
   getWeatherData(city);
+=======
+
+
+btn.addEventListener('click', () => {
+    let city = user_input.value;
+    getWeatherData(city)
+>>>>>>> fa126fda5528d77f51c3c8321dafc04bf04a8f2b
 });
 
 const getWeatherData = async (city) => {
