@@ -10,6 +10,7 @@ let description = document.querySelector("desc");
 
 
 
+
 btn.addEventListener('click', () => {
     let city = user_input.value;
     getWeatherData(city)
