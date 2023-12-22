@@ -1,7 +1,10 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&family=Roboto:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins',serif;
 }
 
 body {
@@ -47,4 +50,14 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 1
 
 .icon img {
   height: 100px;
+}
+
+.weather{
+  font-size: 20px;
+  color:white;
+}
+.temp{
+  color: white;
+  font-size: 17px;
+  margin-top: 0px;
 }
