@@ -18,7 +18,7 @@ btn.addEventListener("click", () => {
 const getWeatherData = async (city) => {
   // try {
   const response = await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=62f4367c410104e4584c2ba7755485b2`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=62f4367c410104e4584c2ba7755485b2&units=metric`
   );
   const data = await response.json();
   console.log(data);
@@ -33,7 +33,7 @@ const getWeatherData = async (city) => {
   const countryName = data.sys.country;
   weatherData.innerHTML = `${cityname},${countryName}`;
   const tempdata = data.main.temp;
-  temperature.innerHTML = `${tempdata}`;
+  temperature.innerHTML = `${tempdata}°C`;
 };
 
 // script.js:35 Uncaught (in promise) TypeError: Cannot set properties of null (setting 'innerHTML')    at getWeatherData (script.js:35:27)
