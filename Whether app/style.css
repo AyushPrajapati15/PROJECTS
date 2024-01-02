@@ -57,6 +57,12 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 1
 
 .temp {
   color: white;
-  font-size: 17px;
-  margin-top: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.description{
+  margin-top: 15px;
+  font-size: 22px;
+  color: white;
 }
