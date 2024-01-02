@@ -3,7 +3,7 @@ let btn = document.querySelector("button");
 let icon = document.querySelector(".icon");
 let weatherData = document.querySelector(".weather");
 let temperature = document.querySelector(".temp");
-let description = document.querySelector(".desc");
+let description = document.querySelector(".description");
 
 
 
@@ -36,6 +36,8 @@ const getWeatherData = async (city) => {
   weatherData.innerHTML = `${cityname},${countryName}`;
   const tempdata = data.main.temp;
   temperature.innerHTML = `${tempdata}°C`;
+  const weatherdesc = data.weather[0].description;
+  description.innerHTML=`${weatherdesc}`
 };
 
 // script.js:35 Uncaught (in promise) TypeError: Cannot set properties of null (setting 'innerHTML')    at getWeatherData (script.js:35:27)
