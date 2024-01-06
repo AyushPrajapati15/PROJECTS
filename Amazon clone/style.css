@@ -3,10 +3,42 @@
   font-family: Arial;
   border: border-box;
 }
+/* box 1 */
+
 .navbar {
   height: 60px;
   background-color: #0f1111;
   color: white;
+  display: flex;
+}
+.nav-logo{
+  height: 50px;
+  width: 100px;
 }
 .logo {
+  background-image: url(amazon_logo.png);
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+}
+.border{
+  border: 1px solid transparent;
+}
+.border:hover{
+  border: 1px solid white;
+}
+
+/* Box 2 */
+.add-icon{
+  display: flex;
+  align-items: center;
+}
+.add-first{
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+.add-second{
+  font-size: 1rem;
+  margin-left: 3px;
 }
