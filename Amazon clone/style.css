@@ -11,7 +11,7 @@
   color: white;
   display: flex;
 }
-.nav-logo{
+.nav-logo {
   height: 50px;
   width: 100px;
 }
@@ -21,25 +21,25 @@
   width: 100%;
   background-size: cover;
 }
-.border{
+.border {
   border: 1px solid transparent;
 }
 
-.border:hover{
+.border:hover {
   border: 1px solid white;
 }
 
 /* Box 2 */
-.add-icon{
+.add-icon {
   display: flex;
   align-items: center;
 }
-.add-first{
+.add-first {
   color: #cccccc;
   font-size: 0.85rem;
   margin-left: 15px;
 }
-.add-second{
+.add-second {
   font-size: 1rem;
   margin-left: 3px;
 }
