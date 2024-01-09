@@ -10,6 +10,7 @@
   background-color: #0f1111;
   color: white;
   display: flex;
+  align-items: center;
 }
 .nav-logo {
   height: 50px;
@@ -37,10 +38,26 @@
 }
 .add-first {
   color: #cccccc;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   margin-left: 15px;
 }
 .add-second {
   font-size: 1rem;
   margin-left: 3px;
+}
+
+/* Box-3 search */
+
+.nav-search{
+  display: flex;
+  background-color: rgb(247, 138, 205);
+  width: 1137px;
+  height: 40px;
+  border-radius: 3px;
+}
+.search-select{
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-radius: 3px;
 }
