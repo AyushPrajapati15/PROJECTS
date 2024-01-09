@@ -59,5 +59,7 @@
   background-color: #f3f3f3;
   width: 50px;
   text-align: center;
-  border-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+
 }
