@@ -48,18 +48,17 @@
 
 /* Box-3 search */
 
-.nav-search{
+.nav-search {
   display: flex;
   background-color: rgb(247, 138, 205);
   width: 1137px;
   height: 40px;
   border-radius: 3px;
 }
-.search-select{
+.search-select {
   background-color: #f3f3f3;
   width: 50px;
   text-align: center;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
-
 }
