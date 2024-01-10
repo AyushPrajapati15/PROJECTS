@@ -12,10 +12,12 @@
   display: flex;
   align-items: center;
 }
+
 .nav-logo {
   height: 50px;
   width: 100px;
 }
+
 .logo {
   background-image: url(amazon_logo.png);
   height: 50px;
@@ -36,11 +38,13 @@
   display: flex;
   align-items: center;
 }
+
 .add-first {
   color: #cccccc;
   font-size: 0.75rem;
   margin-left: 15px;
 }
+
 .add-second {
   font-size: 1rem;
   margin-left: 3px;
@@ -55,6 +59,7 @@
   height: 40px;
   border-radius: 3px;
 }
+
 .search-select {
   background-color: #f3f3f3;
   width: 50px;
