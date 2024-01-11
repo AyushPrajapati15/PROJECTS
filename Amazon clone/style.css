@@ -2,7 +2,6 @@
   margin: 0;
   font-family: Arial;
   border: border-box;
-  background-color: black;
 }
 /* box 1 */
 
@@ -74,4 +73,8 @@
 .search-input{
   width: 100%;
   font-size: 1rem;
+  border: none;
+}
+.search-icon{
+  background-color: rgb(248, 171, 56);
 }
