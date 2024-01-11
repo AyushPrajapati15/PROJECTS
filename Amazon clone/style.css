@@ -12,6 +12,7 @@
   color: white;
   display: flex;
   align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -59,6 +60,7 @@
   width: 1137px;
   height: 40px;
   border-radius: 4px;
+  justify-content: space-evenly;
 }
 
 .search-select {
@@ -68,4 +70,8 @@
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   border: none;
+}
+.search-input{
+  width: 100%;
+  font-size: 1rem;
 }
