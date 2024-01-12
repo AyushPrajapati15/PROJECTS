@@ -76,5 +76,7 @@
   border: none;
 }
 .search-icon{
-  background-color: rgb(248, 171, 56);
+  width: 45px;
+  justify-content: center;
+  /* background-color: rgb(248, 171, 56); */
 }
