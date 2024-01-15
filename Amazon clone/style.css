@@ -70,12 +70,12 @@
   border-bottom-left-radius: 4px;
   border: none;
 }
-.search-input{
+.search-input {
   width: 100%;
   font-size: 1rem;
   border: none;
 }
-.search-icon{
+.search-icon {
   width: 45px;
   justify-content: center;
   display: flex;
@@ -87,6 +87,6 @@
   border: none;
   color: black;
 }
-.nav-signin p{
+.nav-signin p {
   
 }
