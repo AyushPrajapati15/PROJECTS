@@ -75,6 +75,7 @@
   font-size: 1rem;
   border: none;
 }
+
 .search-icon {
   width: 45px;
   justify-content: center;
@@ -88,5 +89,5 @@
   color: black;
 }
 .nav-signin p {  
-  
+
 }
