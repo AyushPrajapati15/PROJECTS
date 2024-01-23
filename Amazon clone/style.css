@@ -62,9 +62,9 @@
   border-radius: 4px;
   justify-content: space-evenly;
 }
-/* .nav-search:hover{
+.nav-search:hover{
   border: 2px solid orange;
-} */
+}
 
 .search-select {
   background-color: #f3f3f3;
