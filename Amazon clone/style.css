@@ -91,6 +91,10 @@
   color: black;
 }
 
-.nav-signin p {
-  font-size: 14px;
+/* Box-4 */
+span{
+  font-size: 0.7rem;
+}
+.nav-second{
+  font-size: 0.85rem;
 }
