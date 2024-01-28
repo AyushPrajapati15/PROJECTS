@@ -51,7 +51,6 @@
   margin-left: 3px;
 }
 
-
 /* Box-3 search */
 
 .nav-search {
@@ -63,7 +62,7 @@
   justify-content: space-evenly;
 }
 
-.nav-search:hover{
+.nav-search:hover {
   border: 2px solid orange;
 }
 
@@ -97,23 +96,21 @@
 
 /* Box-4 */
 
-span{
+span {
   font-size: 0.7rem;
 }
 
-.nav-second{
+.nav-second {
   font-size: 0.85rem;
   font-weight: 700;
 }
 
 /* Box-6 */
 
-
-.nav-cart i{
+.nav-cart i {
   font-size: 30px;
-
 }
-.nav-cart{
+.nav-cart {
   font-size: 0.85rem;
   font-weight: 700;
 }
