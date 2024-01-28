@@ -62,6 +62,7 @@
   border-radius: 4px;
   justify-content: space-evenly;
 }
+
 .nav-search:hover{
   border: 2px solid orange;
 }
