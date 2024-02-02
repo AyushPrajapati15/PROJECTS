@@ -122,3 +122,6 @@ span {
   background-color: #222F3B;
   display: flex;
 }
+.panel-ops p{
+  display: inline;
+}
