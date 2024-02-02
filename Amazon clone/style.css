@@ -115,3 +115,10 @@ span {
   font-size: 0.85rem;
   font-weight: 700;
 }
+
+
+.panel{
+  height: 40px;
+  background-color: #222F3B;
+  display: flex;
+}
