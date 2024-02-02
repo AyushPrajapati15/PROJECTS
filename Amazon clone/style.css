@@ -121,6 +121,9 @@ span {
   height: 40px;
   background-color: #222F3B;
   display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .panel-ops p{
   display: inline;
