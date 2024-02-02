@@ -1,7 +1,7 @@
 * {
   margin: 0;
   font-family: Arial;
-  border: border-box;
+  box-sizing: border-box;
 }
 /* box 1 */
 
@@ -31,7 +31,8 @@
 }
 
 .border:hover {
-  border: 1px solid white;
+  /* border: 1px solid white; */
+  border-color:white;
 }
 
 /* Box 2 */
@@ -56,15 +57,16 @@
 
 .nav-search {
   display: flex;
-  background-color: rgb(247, 138, 205);
   width: 1137px;
   height: 40px;
   border-radius: 4px;
   justify-content: space-evenly;
+  border: 2px solid transparent;
 }
 
 .nav-search:hover {
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
+  border-color: orange;
 }
 
 .search-select {
@@ -137,3 +139,4 @@ span {
   font-size: 0.9rem;
   font-weight: 700;
 }
+/* main */
