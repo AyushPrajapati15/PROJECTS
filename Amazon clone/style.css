@@ -128,3 +128,7 @@ span {
 .panel-ops p{
   display: inline;
 }
+.panel-ops{
+  width: 75%;
+  font-size: 0.85rem;
+}
