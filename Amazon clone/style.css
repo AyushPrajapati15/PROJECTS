@@ -33,7 +33,7 @@
 
 .border:hover {
   /* border: 1px solid white; */
-  border-color:white;
+  border-color: white;
 }
 
 /* Box 2 */
@@ -119,27 +119,27 @@ span {
   font-weight: 700;
 }
 
-.panel{
+.panel {
   height: 40px;
-  background-color: #222F3B;
+  background-color: #222f3b;
   display: flex;
   color: white;
   align-items: center;
   justify-content: space-evenly;
 }
-.panel-ops p{
+.panel-ops p {
   display: inline;
   margin-left: 15px;
 }
-.panel-ops{
+.panel-ops {
   width: 75%;
   font-size: 0.85rem;
 }
-.panel-deals{
+.panel-deals {
   font-size: 0.9rem;
   font-weight: 700;
 }
 /* main */
-.hero-section{
+.hero-section {
   background-image: url(hero_image.jpg);
 }
