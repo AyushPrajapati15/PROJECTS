@@ -144,6 +144,8 @@ span {
   background-image: url(hero_image.jpg);
   height: 600px;
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 .hero-message{
   background-color: white;
@@ -152,6 +154,8 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 0.85rem;
+  width: 97%;
 }
 .hero-message a {
   color: #007185;
