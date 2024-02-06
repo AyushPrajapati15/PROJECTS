@@ -140,7 +140,6 @@ span {
   font-weight: 700;
 }
 
-
 /* main */
 
 .hero-section {
@@ -151,10 +150,10 @@ span {
   justify-content: center;
   align-items: flex-end;
 }
-.hero-message{
+.hero-message {
   background-color: white;
   color: black;
-  height:40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
