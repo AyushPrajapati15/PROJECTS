@@ -171,6 +171,7 @@ span {
   display: flex;
   justify-content: space-around;
 }
+
 .box {
   border: 2px solid black;
   height: 100px;
