@@ -167,11 +167,11 @@ span {
 }
 
 /* shop section */
-.shop-section{
+.shop-section {
   display: flex;
   justify-content: space-around;
 }
-.box{
+.box {
   border: 2px solid black;
   height: 100px;
   width: 24%;
