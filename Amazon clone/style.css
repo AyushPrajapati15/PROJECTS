@@ -179,7 +179,7 @@ span {
 }
 
 .box {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   height: 100px;
   width: 24%;
   height: 300px;
@@ -189,8 +189,12 @@ span {
 }
 
 .box-content{
-  
+  margin-left: 1rem;
+  margin-left: 1rem;
 }
 .box_img{
   height: 300px;
+  background-image: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
