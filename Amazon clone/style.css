@@ -184,8 +184,13 @@ span {
   width: 24%;
   height: 300px;
   background-color: white;
+  padding: 20px 0px 15px;
+
 }
 
+.box-content{
+  
+}
 .box_img{
   height: 300px;
 }
