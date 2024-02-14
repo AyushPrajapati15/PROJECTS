@@ -194,7 +194,7 @@ span {
 }
 .box_img{
   height: 300px;
-  background-image: cover;
+  background-size: cover;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
