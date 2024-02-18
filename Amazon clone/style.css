@@ -191,6 +191,7 @@ span {
 .box-content {
   margin-left: 1rem;
   margin-left: 1rem;
+  background-image: url('box1_image.jpg');
 }
 
 .box_img {
