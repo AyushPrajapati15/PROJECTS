@@ -175,17 +175,18 @@ span {
 /* shop section */
 .shop-section {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   background-color: #e2e7e6;
 }
 
 .box {
   /* border: 2px solid black; */
-  height: 100px;
+  height: 400px;
   width: 24%;
-  height: 300px;
   background-color: white;
   padding: 20px 0px 15px;
+  margin-top: 15px;
 }
 
 .box-content {
