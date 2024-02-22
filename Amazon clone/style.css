@@ -196,6 +196,12 @@ span {
   margin-left: 1rem;
   margin-left: 1rem;
 }
+.box-content h2{
+  font-size: 1.5rem;
+  white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow:ellipsis;
+}
 
 .box-img {
   height: 300px;
@@ -216,6 +222,9 @@ span {
   justify-content: center;
   align-items: center;
   font-size: 0.85rem;
-  
+  padding: 20px;
+}
+footer{
+  margin-top:20px;
 
 }
