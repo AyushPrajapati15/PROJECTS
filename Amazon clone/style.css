@@ -232,7 +232,17 @@ footer{
   background-color: #222f3d;
   color: white;
   height: 300px;
-  display: block;
+  display: flex;
   justify-content: space-evenly;
-
+  
+}
+.footer-panel2 p{
+  font-size: 16px;
+}
+ul a{
+  display: block;
+  text-decoration: none;
+  color: #DDDDDD;
+  font-size: 14px;
+  margin-top: 10px;
 }
