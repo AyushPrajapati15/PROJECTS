@@ -214,7 +214,7 @@ span {
   color: #007185;
 }
 
-.foot-panel1{
+.footer-panel1{
   background-color: #374753;
   color: white;
   height: 50px;
@@ -226,5 +226,13 @@ span {
 }
 footer{
   margin-top:20px;
+
+}
+.footer-panel2{
+  background-color: #222f3d;
+  color: white;
+  height: 300px;
+  display: block;
+  justify-content: space-evenly;
 
 }
