@@ -239,10 +239,13 @@ footer{
 .footer-panel2 p{
   font-size: 16px;
 }
+ul{
+  margin-top: 40px;
+}
 ul a{
   display: block;
   text-decoration: none;
   color: #DDDDDD;
   font-size: 14px;
-  margin-top: 10px;
+  margin-top: 13px;
 }
