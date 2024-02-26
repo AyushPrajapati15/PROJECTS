@@ -253,7 +253,7 @@ ul a {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .logo {
@@ -261,4 +261,13 @@ ul a {
   background-size: cover;
   height: 50px;
   width: 100px;
+}
+
+.footer-panel4{
+  background-color: #0f1111;
+  color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
 }
