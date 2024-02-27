@@ -269,14 +269,12 @@ ul a {
   justify-content: center;
   align-items: center;
   height: 90px;
-}
-.pages{
   font-size: 0.7rem;
   text-align: center;
+}
+.pages{
   padding-top: 25px;
 }
 .copyright{
   padding-top: 5px;
-  font-size: 0.7rem;
-  text-align: center;
 }
