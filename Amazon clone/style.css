@@ -253,7 +253,6 @@ ul a {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .logo {
@@ -262,19 +261,19 @@ ul a {
   height: 50px;
   width: 100px;
 }
-.footer-panel4{
+.footer-panel4 {
   background-color: #0f1111;
   color: white;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 90px;
   font-size: 0.7rem;
   text-align: center;
 }
-.pages{
+.pages {
   padding-top: 25px;
 }
-.copyright{
+.copyright {
   padding-top: 5px;
 }
