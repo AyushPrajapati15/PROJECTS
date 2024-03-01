@@ -19,6 +19,7 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 1
   justify-content: center;
   margin-top: 7rem;
 }
+
 .weatherapp {
   height: 400px;
   width: 330px;
@@ -61,7 +62,7 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 1
   margin-top: 20px;
 }
 
-.description{
+.description {
   margin-top: 15px;
   font-size: 22px;
   color: white;
