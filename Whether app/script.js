@@ -5,12 +5,8 @@ let weatherData = document.querySelector(".weather");
 let temperature = document.querySelector(".temp");
 let description = document.querySelector(".description");
 
-
-
 // 62f4367c410104e4584c2ba7755485b2
 // https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-
-
 
 btn.addEventListener("click", () => {
   let city = user_input.value;
@@ -37,7 +33,7 @@ const getWeatherData = async (city) => {
   const tempdata = data.main.temp;
   temperature.innerHTML = `${tempdata}°C`;
   const weatherdesc = data.weather[0].description;
-  description.innerHTML=`${weatherdesc}`
+  description.innerHTML = `${weatherdesc}`;
 };
 
 // script.js:35 Uncaught (in promise) TypeError: Cannot set properties of null (setting 'innerHTML')    at getWeatherData (script.js:35:27)
