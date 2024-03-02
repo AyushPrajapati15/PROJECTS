@@ -5,3 +5,4 @@ upi_id = input("Enter your upi id")
 
 
 phonepe_url=f'upi://pay?pa={upi_id}&pn=Recipient%20Name&mc=1234'
+googlepay_url=f'upi://pay?pa={upi_id}&pn=Recipient%20Name&mc=1234'
