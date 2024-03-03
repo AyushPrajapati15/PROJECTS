@@ -11,3 +11,8 @@ googlepay_url=f'upi://pay?pa={upi_id}&pn=Recipient%20Name&mc=1234'
 #Create qr code for each payment app
 phonepe_qr=qrcode.make(phonepe_url)
 googlepay_qr=qrcode.make(googlepay_url)
+
+
+
+#Save the qr code to image file
+phonepe_qr.save('phonepe_qr.png')
