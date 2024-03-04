@@ -16,3 +16,4 @@ googlepay_qr=qrcode.make(googlepay_url)
 
 #Save the qr code to image file
 phonepe_qr.save('phonepe_qr.png')
+googlepay_qr.save('google_pay_qr.png')
