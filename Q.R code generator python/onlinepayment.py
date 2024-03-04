@@ -15,5 +15,9 @@ google_pay_qr=qrcode.make(google_pay_url)
 
 
 #Save the qr code to image file
-phonepe_qr.save('phonepe_qr.png')
-google_pay_qr.save('google_pay_qr.png')
+# phonepe_qr.save('phonepe_qr.png')
+# google_pay_qr.save('google_pay_qr.png')
+
+# Sisolay the qr code(We need to install the PIL/PILLOW library)
+phonepe_qr.show()
+google_pay_qr.show()
