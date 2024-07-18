@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+nav ul li{
+    padding: 0px 6px;
+    color: rgb(36, 226, 217);
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    /* background: rgba(0, 0, 0, 0.74); */
+    background: rgb(0, 0, 0);
+    align-items: center;
+
+}
+
+.brand img{
+    width: 46px;
+    height: 60px;
+    padding: 0 10px 0 0;
+    border-radius: 25px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+
+}
+
+.container
+{
+    min-height: 95vh;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+}
