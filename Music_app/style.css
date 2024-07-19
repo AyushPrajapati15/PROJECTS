@@ -46,6 +46,9 @@ nav ul{
     position: sticky;
     height: 100px;
     background-color: black;
+    color: #ff75d3;
+    /* color: yellow; */
+    ;
     bottom: 0px;
     display: flex;
     justify-content: center;
