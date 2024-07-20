@@ -22,6 +22,18 @@ nav ul{
     align-items: center;
 
 }
+.nav ul{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.nav ul li{
+    padding: 0 10px;
+}
+.right{
+}
 
 .brand img{
     width: 46px;
