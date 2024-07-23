@@ -8,7 +8,6 @@
 
 nav {
   font-family: "Ubuntu", sans-serif;
-  
 }
 nav ul li {
   padding: 0px 6px;
@@ -36,6 +35,10 @@ nav ul {
 /* .right {
   
 } */
+
+.nav{
+  padding-left: 8%;
+}
 
 .brand img {
   width: 46px;
