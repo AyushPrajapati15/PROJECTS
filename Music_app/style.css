@@ -9,13 +9,6 @@
 nav {
   font-family: "Ubuntu", sans-serif;
 }
-
-nav ul li {
-  padding: 0px 6px;
-  color: rgb(36, 226, 217);
-  font-size: 15px;
-}
-
 nav ul {
   display: flex;
   list-style-type: none;
@@ -25,7 +18,14 @@ nav ul {
   align-items: center;
 }
 
-.nav ul {
+nav ul li {
+  padding: 0px 6px;
+  color: rgb(36, 226, 217);
+  font-size: 15px;
+}
+
+
+/* .nav ul {
   display: flex;
   list-style: none;
   background-color: black;
@@ -34,14 +34,14 @@ nav ul {
 }
 .nav ul li {
   padding: 0 10px;
-}
+} */
 /* .right {
   
 } */
 
-.nav {
+/* .nav {
   padding-left: 8%;
-}
+} */
 
 .brand img {
   width: 46px;
@@ -55,15 +55,20 @@ nav ul {
   font-weight: bold;
   font-size: 1.6rem;
 }
-
+ 
 .container {
-  min-height: 85vh;
+  min-height: 72vh;
   background-color: black;
   color: white;
   font-family: "Varela Round", sans-serif;
   display: flex;
   margin-top: 23px auto;
   width: 70%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat  ;
+  background-size: z;
 }
 
 .bottom {
