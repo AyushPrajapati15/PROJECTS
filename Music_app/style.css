@@ -68,7 +68,7 @@ nav ul li {
   padding: 34px;
   background-image: url('background.jpg');
   background-repeat: no-repeat  ;
-  background-size: z;
+  background-size: 100%;
 }
 
 .bottom {
