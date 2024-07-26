@@ -24,7 +24,6 @@ nav ul li {
   font-size: 15px;
 }
 
-
 /* .nav ul {
   display: flex;
   list-style: none;
@@ -55,7 +54,7 @@ nav ul li {
   font-weight: bold;
   font-size: 1.6rem;
 }
- 
+
 .container {
   min-height: 72vh;
   background-color: black;
@@ -66,8 +65,8 @@ nav ul li {
   width: 70%;
   border-radius: 12px;
   padding: 34px;
-  background-image: url('background.jpg');
-  background-repeat: no-repeat  ;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
   background-size: 100%;
 }
 
