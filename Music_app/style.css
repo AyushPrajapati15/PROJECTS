@@ -24,23 +24,28 @@ nav ul li {
   font-size: 15px;
 }
 
-/* .nav ul {
+/* my */
+ .nav ul {
   display: flex;
   list-style: none;
   background-color: black;
   color: white;
   font-size: 20px;
+  padding-left: 8%;
 }
 .nav ul li {
   padding: 0 10px;
-} */
-/* .right {
+  padding-left: 2%;
+}
+ .right {
   
-} */
+} 
 
-/* .nav {
-  padding-left: 8%;
-} */
+.nav {
+  /* padding-left: 8%; */
+} 
+
+/*my  */
 
 .brand img {
   width: 46px;
@@ -61,7 +66,7 @@ nav ul li {
   color: white;
   font-family: "Varela Round", sans-serif;
   display: flex;
-  margin-top: 23px auto;
+  margin: 23px auto;
   width: 70%;
   border-radius: 12px;
   padding: 34px;
