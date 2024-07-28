@@ -99,3 +99,15 @@ nav ul li {
   width: 80vw;
   text-align: center;
 }
+
+.songItem{
+  width: 80%;
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: black;
+
+}
+.songItem img{
+
+}
