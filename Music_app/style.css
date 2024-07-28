@@ -101,13 +101,18 @@ nav ul li {
 }
 
 .songItem{
-  width: 80%;
+  width: 140%;
   height: 50px;
   display: flex;
   background-color: white;
   color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
 
 }
 .songItem img{
+  width: 45px;
+  margin: 0 23px;
 
 }
