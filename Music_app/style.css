@@ -25,7 +25,7 @@ nav ul li {
 }
 
 /* my */
- .nav ul {
+.nav ul {
   display: flex;
   list-style: none;
   background-color: black;
@@ -37,13 +37,12 @@ nav ul li {
   padding: 0 10px;
   padding-left: 2%;
 }
- .right {
-  
-} 
+.right {
+}
 
 .nav {
   /* padding-left: 8%; */
-} 
+}
 
 /*my  */
 
@@ -100,7 +99,7 @@ nav ul li {
   text-align: center;
 }
 
-.songItem{
+.songItem {
   width: 140%;
   height: 50px;
   display: flex;
@@ -110,13 +109,11 @@ nav ul li {
   justify-content: space-between;
   align-items: center;
   border-radius: 34px;
-
 }
-.songItem img{
+.songItem img {
   width: 45px;
   margin: 0 23px;
-
 }
-.timestamp{
-  margin:0 23px ;
+.timestamp {
+  margin: 0 23px;
 }
