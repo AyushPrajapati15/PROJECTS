@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.jsp.medimart.Model.Orders;
 import com.jsp.medimart.Repository.OrdersRepo;
 
-
+	
 @Repository
 public class OrdersDao {
 	
