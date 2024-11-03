@@ -8,10 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Getter
 public class NotFoundException extends RuntimeException {
-	
-	private String message;
 
-	
-	
+	private String message;
 
 }
