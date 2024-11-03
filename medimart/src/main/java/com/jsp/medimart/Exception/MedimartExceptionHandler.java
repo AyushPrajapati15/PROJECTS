@@ -17,25 +17,24 @@ import com.jsp.medimart.util.SuccessResponse;
 
 @RestControllerAdvice
 public class MedimartExceptionHandler {
-	
+
 	@ExceptionHandler(SQLIntegrityConstraintViolationException.class)
 	public ResponseEntity<SuccessResponse> sqlICVE(SQLIntegrityConstraintViolationException e) {
 
-		SuccessResponse data=SuccessResponse.builder()
+		SuccessResponse data = SuccessResponse.builder()
 				.status(HttpStatus.BAD_REQUEST.value())
 				.message("you can't perform this operation")
 				.data(e.getMessage())
 				.dateTime(LocalDate.now())
 				.build();
-				//
-				return new ResponseEntity<SuccessResponse>(data, HttpStatus.BAD_REQUEST);
+		//
+		return new ResponseEntity<SuccessResponse>(data, HttpStatus.BAD_REQUEST);
 	}
 
-	
 	@ExceptionHandler(NotFoundException.class)
 	public ResponseEntity<SuccessResponse> notFound(NotFoundException e) {
-		
-		SuccessResponse data=SuccessResponse.builder()
+
+		SuccessResponse data = SuccessResponse.builder()
 				.status(HttpStatus.BAD_REQUEST.value())
 				.message("you can't perform this operation")
 				.data(e.getMessage())
@@ -43,6 +42,5 @@ public class MedimartExceptionHandler {
 				.build();
 		return new ResponseEntity<SuccessResponse>(data, HttpStatus.BAD_REQUEST);
 	}
-	
-	
+
 }
