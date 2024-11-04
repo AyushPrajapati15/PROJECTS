@@ -20,42 +20,43 @@ public class DrugController {
 
 	@Autowired
 	DrugService drugService;
-	
+
 	@PostMapping("/adddrug")
-	public ResponseEntity<SuccessResponse> addDrug(@RequestBody Drug drug,@RequestParam int adId) {
+	public ResponseEntity<SuccessResponse> addDrug(@RequestBody Drug drug, @RequestParam int adId) {
 		return drugService.saveDrug(drug, adId);
 
 	}
+
 	@PostMapping("/updatedrug")
-	public ResponseEntity<SuccessResponse> updateDrug(@RequestBody Drug drug,@RequestParam int adId) {
+	public ResponseEntity<SuccessResponse> updateDrug(@RequestBody Drug drug, @RequestParam int adId) {
 		return drugService.saveDrug(drug, adId);
-		
+
 	}
+
 	@DeleteMapping("/deletedrug")
-	public ResponseEntity<SuccessResponse> deleteDrug(@RequestParam int drugId,@RequestParam int adId) {
+	public ResponseEntity<SuccessResponse> deleteDrug(@RequestParam int drugId, @RequestParam int adId) {
 		return drugService.deleteDrugById(drugId, adId);
-		
+
 	}
-	
+
 	@GetMapping("/getbyid")
 	private ResponseEntity<SuccessResponse> drugById(@RequestParam int id) {
 		return drugService.fetchById(id);
 
 	}
-	
+
 	@GetMapping("/getbyname")
 	private ResponseEntity<SuccessResponse> drugByName(@RequestParam String name) {
 		return drugService.fetchByName(name);
 
 	}
-	
+
 	@GetMapping("/getall")
 	private ResponseEntity<SuccessResponse> allDrug() {
 		return drugService.fetchAll();
 
 	}
-	
+
 }
 
-
-//regular expressions
+// regular expressions
