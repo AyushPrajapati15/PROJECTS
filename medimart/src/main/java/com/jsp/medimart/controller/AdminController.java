@@ -19,23 +19,23 @@ import com.jsp.medimart.util.MedimartMailSender;
 import com.jsp.medimart.util.SuccessResponse;
 
 @RestController
-@RequestMapping("/admin")  //base URL FOR THIS CLASS
+@RequestMapping("/admin") // base URL FOR THIS CLASS
 public class AdminController {
-	
+
 	@Autowired
 	MemberService memberService;
-	
+
 	@Autowired
 	AdminService adminService;
-	
-//	@Autowired
-//	MedimartMailSender mailSender;
-	
-//	@GetMapping("/send")
-//	public void sendMail(@RequestParam String email) {
-//		mailSender.requestEnable(email);
-//	}
-	
+
+	// @Autowired
+	// MedimartMailSender mailSender;
+
+	// @GetMapping("/send")
+	// public void sendMail(@RequestParam String email) {
+	// mailSender.requestEnable(email);
+	// }
+
 	@PostMapping("/registeradmin")
 	public ResponseEntity<SuccessResponse> saveAdmin(@RequestBody Admin admin) {
 		return adminService.saveAdmin(admin);
@@ -45,8 +45,9 @@ public class AdminController {
 	@PostMapping("/updateadmin")
 	public ResponseEntity<SuccessResponse> updateAdmin(@RequestBody Admin admin) {
 		return adminService.updateAdmin(admin);
-		
+
 	}
+
 	@GetMapping("/fetchadmin")
 	public ResponseEntity<SuccessResponse> fetchAdmin(@RequestParam int id) {
 		return adminService.fetchAdmin(id);
@@ -56,25 +57,21 @@ public class AdminController {
 	public ResponseEntity<SuccessResponse> loginAdmin(@RequestParam String email, String password) {
 		return adminService.adminLogin(email, password);
 	}
-	
-	
+
 	@DeleteMapping("/deleteadmin")
 	public ResponseEntity<SuccessResponse> delteAdmin(@RequestParam int id) {
 		return adminService.adminDelete(id);
 	}
-	
+
 	@PutMapping("/enablemember")
-	public ResponseEntity<SuccessResponse> enableMember(@RequestParam int adminId,@RequestParam int memberId) {
-		return adminService.enableMemberByAdmin(adminId,memberId);
+	public ResponseEntity<SuccessResponse> enableMember(@RequestParam int adminId, @RequestParam int memberId) {
+		return adminService.enableMemberByAdmin(adminId, memberId);
 	}
-	
+
 	@GetMapping("/getallmember")
 	public ResponseEntity<SuccessResponse> getAllMembers() {
 		return memberService.fetchAllMember();
 
 	}
-	
-	
-	
-	
+
 }
