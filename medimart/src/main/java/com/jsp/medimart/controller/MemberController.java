@@ -24,18 +24,19 @@ public class MemberController {
 
 	@Autowired
 	MemberService memberService;
-	
+
 	@PostMapping("/registermember")
 	public ResponseEntity<SuccessResponse> saveMember(@RequestBody Member member) {
 		return memberService.saveMember(member);
 
 	}
-	
+
 	@PostMapping("/updatemember")
 	public ResponseEntity<SuccessResponse> updateMember(@RequestBody Member member) {
 		return memberService.updateMember(member);
-		
+
 	}
+
 	@GetMapping("/fetchmember")
 	public ResponseEntity<SuccessResponse> fetchMember(@RequestParam int id) {
 		return memberService.fetchMember(id);
@@ -45,27 +46,27 @@ public class MemberController {
 	public ResponseEntity<SuccessResponse> loginMember(@RequestParam String email, String password) {
 		return memberService.memberLogin(email, password);
 	}
-	
-	
+
 	@DeleteMapping("/deletemember")
 	public ResponseEntity<SuccessResponse> delteMember(@RequestParam int id) {
 		return memberService.MemberDelete(id);
 	}
-	
+
 	@GetMapping("/allmember")
 	public ResponseEntity<SuccessResponse> allMember() {
 		return memberService.fetchAllMember();
 
 	}
-	
+
 	@PostMapping("/uploadprofile")
-	public ResponseEntity<SuccessResponse> uploadProfile(@RequestParam int memId,@RequestParam MultipartFile file) throws IOException {
-		
-//		System.out.println(file.getBytes());
-//		System.out.println(file.getOriginalFilename());
-		return memberService.uploadImage(memId,file);
+	public ResponseEntity<SuccessResponse> uploadProfile(@RequestParam int memId, @RequestParam MultipartFile file)
+			throws IOException {
+
+		// System.out.println(file.getBytes());
+		// System.out.println(file.getOriginalFilename());
+		return memberService.uploadImage(memId, file);
 	}
-	
+
 	@GetMapping("/getprofile")
 	public ResponseEntity<byte[]> getProfile(@RequestParam int memId) {
 		return memberService.fetchImage(memId);
