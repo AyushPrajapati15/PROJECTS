@@ -16,15 +16,14 @@ import com.jsp.medimart.util.SuccessResponse;
 @RestController
 @RequestMapping("/orders")
 public class OrderController {
-	
+
 	@Autowired
 	OrderService orderService;
-	
+
 	@PostMapping("/placeorder")
-	public ResponseEntity<SuccessResponse> placeOrder(@RequestParam int memId,@RequestBody List<String> drug) {
+	public ResponseEntity<SuccessResponse> placeOrder(@RequestParam int memId, @RequestBody List<String> drug) {
 		return orderService.order(memId, drug);
 
 	}
-	
 
 }
