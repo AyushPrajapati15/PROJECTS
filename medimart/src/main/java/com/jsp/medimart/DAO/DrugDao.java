@@ -12,65 +12,63 @@ import com.jsp.medimart.Repository.DrugRepo;
 
 @Repository
 public class DrugDao {
-	
+
 	@Autowired
 	DrugRepo drugRepo;
-	
-	//ADD DRUG
+
+	// ADD DRUG
 	public Drug addDrug(Drug drug) {
 		return drugRepo.save(drug);
 	}
-	
-	//UPDATE DRUG
+
+	// UPDATE DRUG
 	public Drug updateDrug(Drug drug) {
 		Optional<Drug> byId = drugRepo.findById(drug.getId());
-		if(byId!=null) {
-			return drugRepo.save(drug);			
+		if (byId != null) {
+			return drugRepo.save(drug);
 		}
 		return null;
 	}
-	
-	//DELETE DRUG
+
+	// DELETE DRUG
 	public Drug deleteDrug(int id) {
 		Optional<Drug> op = drugRepo.findById(id);
 		if (op.isPresent()) {
 			Drug drug = op.get();
-			drugRepo.delete(drug);	
+			drugRepo.delete(drug);
 			return drug;
 		} else {
 			return null;
 		}
 	}
-	
-	//FETCH DRUG BY ID
+
+	// FETCH DRUG BY ID
 	public Drug fetchDrugById(int id) {
 		Optional<Drug> byId = drugRepo.findById(id);
-		if(byId.isPresent()) {
+		if (byId.isPresent()) {
 			Drug drug = byId.get();
 			return drug;
 		}
 		return null;
 
 	}
-	
-	//FETCH DRUG BY NAME
+
+	// FETCH DRUG BY NAME
 	public Drug fetchDrugByName(String name) {
 		Optional<Drug> byName = drugRepo.findByName(name);
 		if (byName.isPresent()) {
 			Drug drug = byName.get();
-			return drug;			
+			return drug;
 		}
 		return null;
-		
+
 	}
-	
-	//FETCH ALL DRUG
+
+	// FETCH ALL DRUG
 	public List<Drug> fetchAllDrug() {
 		List<Drug> all = drugRepo.findAll();
 		return all;
 
 	}
-	
-	
 
 }
