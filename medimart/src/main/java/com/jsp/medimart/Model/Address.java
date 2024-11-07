@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 public class Address {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
@@ -22,6 +22,5 @@ public class Address {
 	private String state;
 	private String country;
 	private int pincode;
-	
 
 }
