@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 public class Drug {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
