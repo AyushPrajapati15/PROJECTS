@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 public class Member {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
@@ -27,16 +27,13 @@ public class Member {
 	private String gender;
 	private LocalDate dob;
 	@Lob
-	@Column(columnDefinition = "LONGBLOB",length =Integer.MAX_VALUE)
+	@Column(columnDefinition = "LONGBLOB", length = Integer.MAX_VALUE)
 	private byte[] image;
 	private String emailid;
 	private String password;
 	private long mobile;
-	@OneToOne(cascade=CascadeType.ALL)
+	@OneToOne(cascade = CascadeType.ALL)
 	private Address address;
 	private boolean disable;
-	
-	
-	
 
 }
