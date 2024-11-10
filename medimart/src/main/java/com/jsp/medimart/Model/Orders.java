@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Component
 public class Orders {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
