@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class SuccessResponse {
-	
+
 	private int status;
 	private String message;
 	private LocalDate dateTime;
@@ -20,12 +20,4 @@ public class SuccessResponse {
 
 }
 
-
-
-
-
-
-
-
-
-//enum
+// enum
