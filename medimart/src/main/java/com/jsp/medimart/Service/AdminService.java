@@ -47,12 +47,12 @@ public class AdminService {
 					.data(adminDao.fetchAdmin(id)).message("admin found successful").build();
 			return new ResponseEntity<SuccessResponse>(data, HttpStatus.FOUND);
 		}
-//		SuccessResponse error = SuccessResponse.builder()
-//	            .status(HttpStatus.NOT_FOUND.value())
-//	            .dateTime(LocalDate.now())
-//	            .message("Admin not found")
-//	            .build();
-//	        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+		// SuccessResponse error = SuccessResponse.builder()
+		// .status(HttpStatus.NOT_FOUND.value())
+		// .dateTime(LocalDate.now())
+		// .message("Admin not found")
+		// .build();
+		// return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
 		throw new NotFoundException("Admin with " + id + " not found");
 	}
 
