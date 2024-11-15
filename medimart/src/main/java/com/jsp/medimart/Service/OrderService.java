@@ -65,7 +65,7 @@ public class OrderService {
 			orders.setDrug(list);
 			ordersDao.saveOrder(orders);
 			// sending mail for order placed successfully
-			sender.orderPlaced(email,memName,orders);
+			sender.orderPlaced(email, memName, orders);
 			SuccessResponse data = SuccessResponse.builder().status(HttpStatus.FOUND.value()).dateTime(LocalDate.now())
 					.data(list).message("order placed successfully").build();
 
